@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1_6{ 
+    width: calc(100% / 6) 
+}
+
+.col-2_6{ 
+    width: calc(100% / 6 * 2) 
+}
+
+.col-4_6{ 
+    width: calc(100% / 6 * 4) 
+}
+
+/* .row la uso per il clearfix e per il float */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row{
+    float: left;
+}
+
+
+/* ELEMENTS */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.containerHeader, .sectionContainer{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.containerHeader__nav{
+    width: 100%;
+
+}
+
+.containerHeader__nav__img{
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.containerHeader__nav__list{
+display: inline-block;
+list-style: none;
+text-align: center;
+}
+.containerHeader__nav__list__listItem{
+    display: inline-block;
+
+}
+
+.containerHeader__nav__list__listItem__link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.containerHeader__nav__btn,
+.containerHeader__Hero__btnLight,
+.containerHeader__Hero__btnDark{
+
+}
+
+.containerHeader__Hero{
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 90px;
+}
+
+.sectionContainer__img{
+    display: inline-block;
+    float: left;
+}
+.sectionContainer__text{
+    display: inline-block;
+    float: left;
+}
+
+
+  /* MODIFIERS */
