@@ -42,19 +42,20 @@ header{
 }
 
 .containerHeader__nav{
-    width: 100%;
+    padding: 15px;
 
 }
 
 .containerHeader__nav__img{
-    padding: 15px;
-    vertical-align: middle;
+    float: left;
 }
 
 .containerHeader__nav__list{
 display: inline-block;
 list-style: none;
 text-align: center;
+float: left;
+padding: 9px 0;
 }
 .containerHeader__nav__list__listItem{
     display: inline-block;
@@ -67,10 +68,19 @@ text-align: center;
     padding: 10px;
 }
 
-.containerHeader__nav__btn,
+.containerHeader__nav__btnContainer{
+    float: left;
+    padding: 5px 0;
+    text-align: right;
+}
+
+.containerHeader__nav__btnContainer__btn,
 .containerHeader__Hero__btnLight,
 .containerHeader__Hero__btnDark{
-
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .containerHeader__Hero{
@@ -89,5 +99,7 @@ text-align: center;
     float: left;
 }
 
-
   /* MODIFIERS */
+  .containerHeader__nav__btnContainer__btn--small{
+      font-size: 14px;
+  }
